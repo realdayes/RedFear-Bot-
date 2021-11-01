@@ -35,7 +35,7 @@ module.exports = async (client, PG, Ascii) => {
     // PERMISSIONS CHECK //
 
     client.on("ready", async () => {
-        const MainGuild = await client.guilds.cache.get("534828981933965314");
+        const MainGuild = await client.guilds.cache.get("server-id");
 
         MainGuild.commands.set(CommandsArray).then(async (command) => {
             const Roles = (commandName) => {
