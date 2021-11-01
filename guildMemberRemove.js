@@ -10,8 +10,8 @@ module.exports = {
         const { user, guild } = member;
     
         const Loger = new WebhookClient({
-            id: "894601914526892092",
-            token: "1FLKuSyD4Bd7u8wTz4rSFVW_-UOGQd6t5ft5cQV7XiKtFwJT6gTB-_TpY9gO1Ff3NIGQ"
+            id: "id-channel",
+            token: "token-channel"
         });
 
         const Welcome = new MessageEmbed()
